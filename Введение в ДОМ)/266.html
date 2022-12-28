@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+	    <div>
+		    <p>
+			    <span id="elem"></span>
+		    </p>
+	    </div>
+    </header>
+    
+    <script>
+        
+        /* 1
+        let elem = document.querySelector('.element');
+        let child = elem.firstElementChild;
+        console.log(elem.firstElementChild);
+        child.style.background = 'red'; */ 
+
+        /* 2
+        let elem = document.querySelector('.element');
+        let child = elem.lastElementChild;
+        console.log(elem.lastElementChild);
+        child.style.background = 'red'; */ 
+
+        /* 3
+        let elem = document.querySelector(`.element`);
+        let children = elem.children;
+        console.log(children);
+        for (let elem of children) {
+            elem.textContent += '!';
+        }; */ 
+
+        /* 4
+        let elem = document.querySelector('#elem');
+        elem.parentElement.style.border = '2px solid red'; */ 
+
+        /* 5
+        let elem = document.querySelector('#elem');
+        elem.closest('div');
+        console.log(elem.closest('div')); */ 
+    
+        /* 6
+        let elem = document.querySelector(`#elem`);
+        elem.closest(`.www`);
+        console.log(elem.closest(`.www`)); */ 
+
+        /* 10
+        let elem = document.querySelector('#elem');
+        let dooo = elem.nextElementSibling.textContent;
+        let posle = elem.previousElementSibling.textContent;
+        elem.nextElementSibling.textContent = posle;
+        elem.previousElementSibling.textContent = dooo; */ 
+
+    
+    </script>    
+
+
+</body>
+</html>
